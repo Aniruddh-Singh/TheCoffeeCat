@@ -1,0 +1,32 @@
+/* Footer */
+
+.footer {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    padding: 20px;
+}
+
+.f_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.f_1 li {
+    list-style: none;
+    /* font-weight: bold; */
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.f_1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.f_2 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}

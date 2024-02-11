@@ -1,0 +1,133 @@
+.order_now {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.search_side {
+    width: 25%;
+    border-right: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid black;
+}
+
+.search_box {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+}
+
+.items_side {
+    width: 70%;
+    padding: 30px 20px;
+}
+
+.add_cart {
+    background-color: rgb(47, 0, 255);
+    color: white;
+    display: inline;
+    padding: 10px 15px;
+    font-size: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 50px;
+    right: 50px;
+    float: right;
+    border-radius: 5px;
+    /* box-shadow: 4px 4px 6px rgb(50, 50, 50); */
+    cursor: pointer;
+}
+
+/* VarietyLeft.js */
+.search {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    padding: 4px 10px;
+    width: 50%;
+}
+
+.variety {
+    padding: 30px 20px;
+}
+
+.variety li {
+    list-style: none;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: rgb(253, 235, 206);
+    border-radius: 4px;
+}
+
+/* VarietyRight */
+.variety_heading {
+    text-align: center;
+}
+
+.variety_list li {
+    list-style: none;
+}
+
+.item_name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item_name_li {
+    width: 250px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px black;
+    position: relative;
+    cursor: pointer;
+}
+
+.item_name_li:hover {
+    transform: scale(1.035);
+    transition: 0.3s ease;
+}
+
+.item_name_li .item_img {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item_name_li img {
+    height: 200px;
+    width: 230px;
+    border-radius: 5px 5px 0 0;
+    margin: 10px;
+}
+
+.item_name_li .item_text {
+    padding: 0 10px 10px 10px;
+}
+
+.item_span_s {
+    padding: 3px 3px;
+}
+
+.item_spans {
+    margin: 0 1px;
+    font-size: 18px;
+    color: white;
+    padding: 0 5px;
+    background-color: rgb(0, 136, 29);
+    cursor: pointer;
+}
+
+.item_span2 {
+    background-color: rgb(248, 163, 52);
+    color: black;
+    cursor: default;
+}
+
+.item_span1:hover,
+.item_span3:hover {
+    background-color: rgb(6, 82, 9);
+}

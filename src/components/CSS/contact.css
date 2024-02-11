@@ -1,0 +1,36 @@
+.contact {
+    padding: 5%;
+    background-color: rgb(119, 110, 110);
+    color: white;
+}
+
+.contact h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+.contact_left_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+.contact_left img {
+    height: 200px;
+    width: 200px;
+}
+
+.contact_left_right h2 {
+    font-size: 40px;
+}
+
+.contact_right form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_left_right input {
+    margin: 2% 0;
+    padding: 1%;
+}

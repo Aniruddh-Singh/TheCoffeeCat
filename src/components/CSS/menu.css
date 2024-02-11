@@ -1,0 +1,38 @@
+/* Menu */
+.menu {
+    padding: 5%;
+}
+
+.Mmenu {
+    font-size: 70px;
+    color: rgb(0, 17, 255);
+    text-align: center;
+}
+
+.Mvariety {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Mlist {
+    box-shadow: 2px 2px 7px gray;
+    width: 350px;
+    margin: 2%;
+    padding: 1%;
+}
+
+.varietyName {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+
+.itemNames {
+}
+
+.itemName {
+    list-style: none;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Register Page */
+.register h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.registration-container {
+    text-align: center;
+}
+
+.registrationForm input {
+    width: 600px;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+.registerLogin {
+    display: flex;
+    justify-content: center;
+}
+
+/* Login Page */
+.login h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 50px;
+}
+
+.login-container {
+    text-align: center;
+}
+
+.loginForm input {
+    width: 600px;
+    padding: 10px 15px;
+    margin: 13px 0;
+}
+
+.registerLogin {
+    display: flex;
+    justify-content: center;
+}

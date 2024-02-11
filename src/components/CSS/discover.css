@@ -1,0 +1,77 @@
+/* Discover */
+.discover {
+    padding: 5%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 0, 51, 0.877),
+        rgba(255, 0, 0, 0.855)
+    );
+}
+
+.Dtitle {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Dlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Dlist li {
+    list-style: none;
+    padding: 15px;
+}
+
+.Dlist li a {
+    text-decoration: none;
+}
+
+.Dimg {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.Dtext {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 940px) {
+    .Dimg {
+        height: 170px;
+        width: 170px;
+    }
+}
+
+@media (max-width: 800px) {
+    .discover {
+        padding-top: 12%;
+    }
+}
+
+@media (max-width: 675px) {
+    .Dimg {
+        height: 120px;
+        width: 120px;
+    }
+
+    .Dtext {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 503px) {
+    .Dimg {
+        height: 75px;
+        width: 75px;
+    }
+
+    .Dtext {
+        font-size: 12px;
+    }
+}

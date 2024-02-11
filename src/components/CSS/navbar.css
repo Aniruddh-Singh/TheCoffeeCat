@@ -1,0 +1,87 @@
+/* Navbar */
+.Nnavbar {
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(27, 19, 14, 0.9);
+    z-index: 100;
+}
+
+.Nnav-items {
+    display: flex;
+    list-style: none;
+    margin-top: 6px;
+}
+
+.Nnav-items li {
+    margin: 0 15px;
+    font-size: 20px;
+}
+
+.Nnav-items li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    color: white;
+}
+
+.menuicon {
+    border-radius: 50%;
+}
+
+.Nbtn {
+    align-items: end;
+    background-color: #75d7f8;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.Navbtn {
+    text-decoration: none;
+    color: black;
+}
+
+.Nbtn:hover {
+    background-color: #60c8ea;
+}
+
+@media (max-width: 900px) {
+    .change {
+        display: flex;
+        padding: 12px;
+        justify-content: space-between;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: rgba(27, 19, 14, 0.9);
+    }
+
+    .Nnav-items {
+        display: none;
+    }
+
+    .change .Nnav-items {
+        display: block;
+        transition: 1s;
+    }
+
+    .change .Nnav-items li {
+        font-size: 20px;
+        margin: 8px 0;
+    }
+
+    .Nbtn {
+        padding: 3px 5px;
+        margin: 0 5px;
+        font-size: 16px;
+    }
+
+    .change .Nbtn {
+        display: none;
+    }
+}
